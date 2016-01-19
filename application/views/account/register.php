@@ -17,19 +17,21 @@
 <div class="container">
 <div class="kayitback">
 
-<form action="schoolreg.php" method="post" >
+<form action="<?=base_url()."admin/login"; ?>" method="post"  >
 <h4 style="margin-bottom:32px;">Sign in if you are registered</h4>
   
   <div class="group">
-    <input type="email"><span class="highlight"></span><span class="bar"></span>
+    <input type="text" name="acadusername"  class="acadusername" id="acadusername"  ><span class="highlight"></span><span class="bar"></span>
     <label>Username</label>
   </div>
   <div class="group">
-   <input type="email"><span class="highlight"></span><span class="bar"></span>
+   <input type="password" class="acadpassword"  id="acadpassword" name="acadpassword" ><span class="highlight"></span><span class="bar"></span>
     <label>Password</label>
   </div>
   
-  <button   class="button buttonBlue"type="submit">Login
+  
+  
+  <button   class="button buttonBlue" name="login" type="submit">Login
   </button>
 </form>
 </div>

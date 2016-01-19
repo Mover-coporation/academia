@@ -1,0 +1,81 @@
+.rapper
+{
+    margin-top: 100px;
+}
+.summarywrapper
+{
+    height:160px;  width:98%; display:flex; margin:0 auto; background:#fff; overflow: auto;
+}
+.summarywrapper #info
+{
+    min-height: 145px; min-width: 250px; float: left; display:block; margin-right:5px; padding: 5px;;
+}
+.long{
+    min-width: 10px;;
+}
+.summarywrapper #info #hed{
+    font-family:Gill Sans MT; font-size: 11px; text-align: left; padding: 5px 0px 0px 5px; color: #E64C3B;
+}
+
+#hed h1{
+    font-weight: bold; font-size: 16px; text-align: left; padding: 5px 0px 0px 50px; color: #E64C3B; font-family: "Gill Sans MT";
+}
+
+
+.summarywrapper #info #fot{
+    font-weight: bold; font-size: 18px; text-align: left; padding: 0px 0px 0px 5px; color: #000000; margin-bottom: 5px;;
+}
+.summarywrapper #info #figures
+{
+    font-size: 50px;;top: 25px;;
+}
+.summarywrapper  #info #info-small
+{
+    min-width:100px; position: relative; float: left;  display: block; height: 80px; margin-right: 5px;
+    margin-top: 10px; font-size: 60px; padding:15px; text-align: LEFT;
+}
+.summarywrapper  #info #info-small img{
+    top: -12px; left: -5px;position:relative; cursor: pointer;
+}
+.summarywrapper  #info #info-small h1
+{
+    font-size: 12px; color:#000000; text-align: LEFT;
+}
+
+#students_summary .dashboardlabel {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: -40px;;
+}
+.color-green
+{
+    color: #99CC00;
+}
+.color-red
+{
+    color: #E64C3B;
+}
+.icon{ margin-bottom: 5px;
+    width:98%; height: 20px; display: block;  margin:0 auto; cursor: pointer; border-bottom: 1px solid #FFFF99;
+    border-bottom: 1px solid #D6D5D1;
+}
+.icon div{
+    float: left; min-width: 400px;
+}
+.icon #imag
+{
+    margin:0 auto;;
+}
+.icon #imag img{
+    bottom: -16.5px; position: relative;
+}
+
+.icon:hover,.icon:hover h1
+{
+    color:#00A9F9;
+    /*  background:#D6D5D1; */
+}
+.icon .icondown{
+
+}
+#hed:hover {color:#00A9F9;}

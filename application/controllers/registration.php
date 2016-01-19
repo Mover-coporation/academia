@@ -75,11 +75,16 @@ class Registration extends CI_Controller {
 	
 	#Register School Account
 	public function register_school_account(){
-	//this should base on existing session data :
 	
-	#print_r($_SESSION);
+	#save school account
+    if(isset($_POST['register_school_account']))
+	{
+		$data = $this->account->register_scrhool();	
+		  $this->load->view('account/schoolregistration',$data);
+	}
 	
-	if(!empty($_SESSION['account_email']) && !empty($_SESSION['account_name']) && !empty($_SESSION['account_password']) )
+	#step 2 : load school account
+	else if(!empty($_SESSION['account_email']) && !empty($_SESSION['account_name']) && !empty($_SESSION['account_password']) )
 	{
 		$data = array(
 		'account_email'=>$_SESSION['account_email'],
@@ -116,13 +121,13 @@ class Registration extends CI_Controller {
 				  $this->load->view('account/register');
 			 }
 		 }
-		 
 		
-		//check academia account 
+    #check academia account 
 	}
+	#Go Back to Level 1
 	else
 	{ 
-		exit("REGISTER SCHOOL ACCOUNT");
+		   $this->load->view('account/register');
 	}
 	
 	}

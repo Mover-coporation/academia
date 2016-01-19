@@ -80,14 +80,16 @@ class Admin extends CI_Controller {
 		# Pick all assigned data
 		$data = assign_to_data($urldata);
 
+
+
+
 		
 
 		# If user has clicked login button
-		if($this->input->post('login'))
-
+		if(isset($_POST['login']))
 		{
 
-			$required_fields = array('acadusername', 'acadpassword');
+ 			$required_fields = array('acadusername', 'acadpassword');
 
 			$_POST = clean_form_data($_POST);
 
@@ -308,7 +310,7 @@ class Admin extends CI_Controller {
 		
 
 		
-
+exit("pass");
 		$data = add_msg_if_any($this, $data);
 
 		$this->load->view('login_view', $data);

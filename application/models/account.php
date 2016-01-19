@@ -140,11 +140,76 @@ class Account  extends CI_Model
    }
 	
 	
-	function register_scrhool($data)
-	{
-		
-		 
-		
+	#Register School
+	function register_scrhool()
+	{	
+			#clean Up Form Data
+			$_POST = clean_form_data($_POST);	
+			
+			$required_fields = array('school_name','school_licence','phone_number','school_email','register_school_account');		
+			
+			#validate form fields like emails and stuff like that 	
+			$validation_results = validate_form('', $_POST, $required_fields);
+			
+			#Run More Validation Issues to Get Information 
+			/*
+			Mising  
+			*/
+			
+			
+			# ALSO ADD THE ACCOUNT ON WHICH IT BELONGS
+			if(empty($validation_results['bool']))
+			{
+				
+				
+					# SCHOOL DETAILS 				
+					$schooldetails = array(
+					'schoolname'=>$_POST['school_name'],
+					'phone_number'=>$_POST['phone_number'],
+					'school_email'=>!empty($_POST['school_email']) ? $_POST['school_email']  : '',
+					'type_of_school'=>!empty($_POST['type_of_school']) ?$_POST['type_of_school'] : '',
+					'school_licence'=>$_POST['school_licence']				
+					);
+				
+								
+				#INSERT RECORDS IN THE SYSTEM ::
+				$result = $this->db->query($this->Query_reader->get_query_by_code('add_school_data', $schooldetails));
+				
+				#IF RECORD EXISTS 
+				if($result)
+				{
+					
+					#CREATE SUPER ADMIN FOR THIS SCHOOOL 
+					
+					   $msg ="RECORD SAVED SUCCESFULLY";
+				       $data['SUCCESS']  = $msg;
+					
+				}
+				else
+				{
+					 $msg ="RECORD SAVED SUCCESFULLY";
+				     $data['ERROR']  = $msg;
+				}
+				
+				 
+				
+				return $data;
+				
+			}
+			else
+			{
+				#Save School Account : 			
+				$msg ="THERE HAVE BEEN VALIDATION ISSUES";
+				$data['ERROR']  = $msg;
+				$data['validation_results'] = $validation_results;
+				
+				return $data;
+								
+				
+			}
+			
+				
+		print_r($_POST);
 	}
 	
 	

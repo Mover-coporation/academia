@@ -1,0 +1,393 @@
+<?xml version="1.0"?>
+<reportmodule>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term>Third Term</term>
+      <class>Primary Six</class>
+      <year/>
+      <names>Gerald Tusasibwe</names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>67</subjectid>
+        <subjectname>Social Studies</subjectname>
+      </subject>
+      <subject>
+        <subjectid>66</subjectid>
+        <subjectname>Science</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+        <subjectid/>
+        <subjectname/>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>End of term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>67</examd>
+        <exams>
+          <subjectid>67</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>66</examd>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>80</marks>
+        </exams>
+        <avmark>7.9</avmark>
+        <examposition>15</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>24 (30%)</subtotos>
+      <totalas>24</totalas>
+      <position>206</position>
+      <numstudents> 19</numstudents>
+    </marksheet>
+  </report>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term>Second Term</term>
+      <class>Primary Six</class>
+      <year/>
+      <names>Gerald Tusasibwe</names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>67</subjectid>
+        <subjectname>Social Studies</subjectname>
+      </subject>
+      <subject>
+        <subjectid>66</subjectid>
+        <subjectname>Science</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+        <subjectid/>
+        <subjectname/>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>MidTerm</examname>
+      </exam>
+      <exam>
+        <examname>End of Term Exams</examname>
+      </exam>
+      <exam>
+        <examname>Beginning of Term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>72</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>67</examd>
+        <exams>
+          <subjectid>67</subjectid>
+          <marks>80</marks>
+        </exams>
+        <exams>
+          <subjectid>67</subjectid>
+          <marks>65</marks>
+        </exams>
+        <exams>
+          <subjectid>67</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>66</examd>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>58</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>63</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>24 (30%)</subtotos>
+      <subtotos>129 (50%)</subtotos>
+      <subtotos>0 (20%)</subtotos>
+      <totalas>153</totalas>
+      <position>118</position>
+      <numstudents> 18</numstudents>
+    </marksheet>
+  </report>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term> First Term</term>
+      <class>Primary Six</class>
+      <year/>
+      <names>Gerald Tusasibwe</names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>67</subjectid>
+        <subjectname>Social Studies</subjectname>
+      </subject>
+      <subject>
+        <subjectid>66</subjectid>
+        <subjectname>Science</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+        <subjectid/>
+        <subjectname/>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>Mid Term Test</examname>
+      </exam>
+      <exam>
+        <examname>End of Term Exams</examname>
+      </exam>
+      <exam>
+        <examname>Beginning of Term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>67</examd>
+        <exams>
+          <subjectid>67</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>67</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>67</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>66</examd>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>0 (30%)</subtotos>
+      <subtotos>0 (50%)</subtotos>
+      <subtotos>0 (20%)</subtotos>
+      <totalas>0</totalas>
+      <position>Not Graded</position>
+      <numstudents> 8</numstudents>
+    </marksheet>
+  </report>
+</reportmodule>

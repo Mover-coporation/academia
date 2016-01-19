@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<reportmodule>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term>Third Term</term>
+      <class>Primary Three</class>
+      <year/>
+      <names>Donata Andinda     </names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>66</subjectid>
+        <subjectname>Science</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>62</subjectid>
+        <subjectname>Literacy</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+        <subjectid/>
+        <subjectname/>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>End of term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>39</marks>
+        </exams>
+        <avmark>54.1</avmark>
+        <examposition>63</examposition>
+      </examid>
+      <examid>
+        <examd>66</examd>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>28</marks>
+        </exams>
+        <avmark>50.3</avmark>
+        <examposition>32</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>32</marks>
+        </exams>
+        <avmark>41.9</avmark>
+        <examposition>54</examposition>
+      </examid>
+      <examid>
+        <examd>62</examd>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>40</marks>
+        </exams>
+        <avmark>54.4</avmark>
+        <examposition>135</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>41.7 (30%)</subtotos>
+      <totalas>41.7</totalas>
+      <position>156</position>
+      <numstudents> 36</numstudents>
+    </marksheet>
+  </report>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term>Second Term</term>
+      <class>Primary Three</class>
+      <year/>
+      <names>Donata Andinda     </names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>66</subjectid>
+        <subjectname>Science</subjectname>
+      </subject>
+      <subject>
+        <subjectid>65</subjectid>
+        <subjectname>Local Language</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>62</subjectid>
+        <subjectname>Literacy</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+        <subjectid/>
+        <subjectname/>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>MidTerm</examname>
+      </exam>
+      <exam>
+        <examname>End of Term Exams</examname>
+      </exam>
+      <exam>
+        <examname>Beginning of Term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>29</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>66</examd>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>65</examd>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>68</marks>
+        </exams>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>16</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>62</examd>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>23</marks>
+        </exams>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>27</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>0 (30%)</subtotos>
+      <subtotos>81.5 (50%)</subtotos>
+      <subtotos>0 (20%)</subtotos>
+      <totalas>81.5</totalas>
+      <position>264</position>
+      <numstudents> 38</numstudents>
+    </marksheet>
+  </report>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term> First Term</term>
+      <class>Primary Three</class>
+      <year/>
+      <names>Donata Andinda     </names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>66</subjectid>
+        <subjectname>Science</subjectname>
+      </subject>
+      <subject>
+        <subjectid>65</subjectid>
+        <subjectname>Local Language</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>62</subjectid>
+        <subjectname>Literacy</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+        <subjectid/>
+        <subjectname/>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>Mid Term Test</examname>
+      </exam>
+      <exam>
+        <examname>End of Term Exams</examname>
+      </exam>
+      <exam>
+        <examname>Beginning of Term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>66</examd>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>66</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>65</examd>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>62</examd>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>0 (30%)</subtotos>
+      <subtotos>0 (50%)</subtotos>
+      <subtotos>0 (20%)</subtotos>
+      <totalas>0</totalas>
+      <position>Not Graded</position>
+      <numstudents> 34</numstudents>
+    </marksheet>
+  </report>
+</reportmodule>

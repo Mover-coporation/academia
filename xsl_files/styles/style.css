@@ -1,0 +1,61 @@
+
+h1{ padding:0px; color:#000;}
+h1 #titl{ font-size:18px; font-weight:bold; font-family:Arial Black, Helvetica, sans-serif ;text-transform:uppercase;}
+#wrapper #heder{}
+#wrapper #heder #logo{ float:left;}
+#wrapper #heder  #title{ width:66%; padding:5px; float:left;}
+#wrapper #heder  #title h1{ font-size:16px; text-align:center; width:80%;}
+#wrapper #heder  #title #email,#wrapper #heder  #title #tel{ font-size:16px; text-align:center;}
+#wrapper #heder  #title #motto{font-size:22px; font-weight:bold; text-align:center;}
+#wrapper #heder  #title #term{font-size:20px; font-weight:bold; text-align:center; margin-top:5px;}
+#wrapper #bod { clear:both;}
+#wrapper #bod #student_if0{ width:100%; height: 50px; background:#C99; position:relative;}
+#h_img img{ height: 100px; border-radius:5px;}
+#email{margin:0 auto; padding:0px; text-align:center; font-size:18px; width:80%;}
+#trm{margin:0 auto; padding:0px; text-align:center;text-align:center; font-size:16px; width:80%;}
+
+#tel{margin:0 auto;padding:0px; text-align:center;text-align:center; font-size:16px; width:80%;}
+#motto{margin:0 auto; text-transform:uppercase; padding:0px; text-align:center; width:80%; font-size: 16px; font-weight: bold;}
+#rptm{background:#fff;}
+#rptm tr td{ }
+#h_img{width:100px;}
+#student_if0 div{ float:left;width:20%;
+
+}
+#postin{ clear:both;
+}
+#postin label
+{
+    float:left; padding:2px; margin:2px;
+}
+#postin #hda{
+    font-weight:bold;
+}
+
+#header table{ width: 100%;
+   / border-collapse: collapse;  }
+
+
+#report table{ width: 100%;
+    border-collapse: collapse;   }
+th {
+
+    color: white;
+    font-weight: bold;
+}
+#pupil{ padding: 0px; padding-top: 15px; }
+#pp{ font-weight: bold;}
+#report table tr th{padding: 5px; color:#000; text-align: center;}
+#report table tr td{padding:2px; padding-left: 5px; font-weight: normal;}
+#report table tr :even td{ background: #000;}
+
+#report #leftbar{ text-align:left;}
+#report tr:hover td{ background:#eee; }
+#report tr td:hover{ cursor:pointer; background: #2e2e2e; color:#fff; }
+#report tr:hover #leftbar{background:#2e2e2e; color: #fff;}
+#report #leftbar:hover{ background:#2e2e2e; color: #fff; cursor: pointer; }
+
+
+.ff #postin{padding: 1px; clear: both; display: block; }
+.ff #postin label{ padding: 5px; display: block; float: left; display: table-cell; min-width: 100px;}
+.ff block{ background: #000; width: 100%; display: block;}

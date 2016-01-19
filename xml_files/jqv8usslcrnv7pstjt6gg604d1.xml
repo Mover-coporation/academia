@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<reportmodule>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term>Second Term</term>
+      <class>Primary Two</class>
+      <year/>
+      <names>Ainebyona Gerald</names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>65</subjectid>
+        <subjectname>Local Language</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>62</subjectid>
+        <subjectname>Literacy</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+        <subjectid/>
+        <subjectname/>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>MidTerm</examname>
+      </exam>
+      <exam>
+        <examname>End of Term Exams</examname>
+      </exam>
+      <exam>
+        <examname>Beginning of Term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>62</marks>
+        </exams>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>65</examd>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>73</marks>
+        </exams>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>20</marks>
+        </exams>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>62</examd>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>32</marks>
+        </exams>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>32</marks>
+        </exams>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>0 (30%)</subtotos>
+      <subtotos>109.5 (50%)</subtotos>
+      <subtotos>0 (20%)</subtotos>
+      <totalas>109.5</totalas>
+      <position>233</position>
+      <numstudents> 36</numstudents>
+    </marksheet>
+  </report>
+</reportmodule>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<reportmodule>
+  <report>
+    <reportid/>
+    <head>
+      <logo1>../downloads/schools/ac_1408030137Q_thumb.png</logo1>
+      <logo2/>
+      <title>Victory Primary School</title>
+      <email>isendagala@sanctuaryretreats.com</email>
+      <pobox/>
+      <address/>
+      <tel/>
+      <motto/>
+      <term/>
+      <class>Primary Two</class>
+      <year/>
+      <names>Akankwasa  Dickson Bahati</names>
+    </head>
+    <subjects>
+      <subject>
+        <subjectid>68</subjectid>
+        <subjectname>Mathematics</subjectname>
+      </subject>
+      <subject>
+        <subjectid>65</subjectid>
+        <subjectname>Local Language</subjectname>
+      </subject>
+      <subject>
+        <subjectid>64</subjectid>
+        <subjectname>Religious Education</subjectname>
+      </subject>
+      <subject>
+        <subjectid>62</subjectid>
+        <subjectname>Literacy</subjectname>
+      </subject>
+      <subject>
+        <subjectid>60</subjectid>
+        <subjectname>English</subjectname>
+      </subject>
+    </subjects>
+    <exams>
+      <exam>
+        <examname>Beginning of Term</examname>
+      </exam>
+    </exams>
+    <marksheet>
+      <examid>
+        <examd>68</examd>
+        <exams>
+          <subjectid>68</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>65</examd>
+        <exams>
+          <subjectid>65</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>64</examd>
+        <exams>
+          <subjectid>64</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <examid>
+        <examd>62</examd>
+        <exams>
+          <subjectid>62</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+        <subtotal/>
+      </examid>
+      <subtotos>0 (20%)</subtotos>
+      <totalas>0</totalas>
+      <examid>
+        <examd>60</examd>
+        <exams>
+          <subjectid>60</subjectid>
+          <marks>0</marks>
+        </exams>
+        <avmark></avmark>
+        <examposition>Not Graded</examposition>
+      </examid>
+      <position>Not Graded</position>
+    </marksheet>
+  </report>
+</reportmodule>

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="../stylesheet/techsoft.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheet/menu.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheet/tooltip.css" rel="stylesheet" type="text/css" />
+<title>{$title}</title>
+<script language="JavaScript" src="../javascript/techsoft.js"
+	type="TEXT/JAVASCRIPT"></script>
+<!-- Calendar Javascript -->
+<script language="JavaScript" type="text/javascript"
+	src="../javascript/calendar.js"></script>
+	<script language="JavaScript" src="../javascript/CalendarPopup.js"></script>
+<!-- Sliding Left/Right hand menu Javascript-->
+<script language="JavaScript" type="text/javascript"
+	src="../javascript/motionpack.js"></script>
+<!-- Toolt tip Javascript-->
+<script src="../javascript/dw_event.js" type="text/javascript"></script>
+<script src="../javascript/dw_viewport.js" type="text/javascript"></script>
+<script src="../javascript/dw_tooltip.js" type="text/javascript"></script>
+<!-- Table Sorter and Handler Javascript -->
+<script language="JavaScript" type="text/javascript"
+	src="../javascript/table.js"></script>
+</head>
+<body onLoad="Tooltip.init()">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td>{include file="header.tpl.htm"}</td>
+	</tr>
+	<tr>
+		<td>{$menu}</td>
+	</tr>
+	<tr>
+		<td>{include file="topband.tpl.htm"}</td>
+	</tr>
+	<tr>
+		<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="2">
+			<tr>
+				{if $show_lblock == 1} 	
+					{if $page_type == "other"} 
+						{* The other pages, need a blue background for the menu *}
+						<td valign="top" id="leftcolumn" style="width: 225px;"
+							class="subtab">
+							<div id="left_block"
+								style="display: inherit; overflow: hidden; height: 400px; width: 225px;">{$left_hand_block}
+							</div>
+						</td>
+						{else}
+						<td valign="top" id="leftcolumn" style="width: 160px;">
+							<div id="left_block"
+							style="display: inherit; overflow: hidden; height: 400px; width: 160px;">{$left_hand_block}
+							</div>
+							</td>
+						{/if} 
+				{/if}
+				<td id="content" width="99%" valign="top">
+				<table width="100%" border="0" cellspacing="0" cellpadding="4">
+					<tr>
+						{if $show_lblock == 1}
+						<td align="left" nowrap="nowrap"><a href="javascript:;"
+							onmousedown="toggleSlide('left_block');"><img
+							src="../images/show_panel.gif"
+							onmouseover="doTooltip(event, 'Show/Hide Menu')"
+							onMouseOut="hideTip()" /></a></td>
+						{/if} {if $show_rblock == 1}
+						<td align="right" nowrap="nowrap"><a href="javascript:;"
+							onmousedown="toggleSlide('right_block');"><img
+							src="../images/show_panel.gif"
+							onmouseover="doTooltip(event, 'Show/Hide Menu')"
+							onMouseOut="hideTip()" /></a></td>
+						{/if}
+					</tr>
+					<tr>
+						<td colspan="2" class="largetext" nowrap="nowrap">{$page_title}</td>
+					</tr>
+					<tr>
+						<td colspan="2" nowrap="nowrap" valign="top" id="pagecontent">{$page_content}</td>
+					</tr>
+				</table>
+				</td>
+				{if $show_rblock == 1}
+				<td valign="top" id="rightcolumn">
+				<div id="right_block"
+					style="display: inherit; overflow: visible; height: 400px; width: 160px;">{$right_hand_block}</div>
+				</td>
+				{/if}
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="100%">{include file="footer.tpl.htm"}</td>
+	</tr>
+</table>
+</body>
+</html>
